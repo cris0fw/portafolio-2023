@@ -1,0 +1,83 @@
+@import './global.scss';
+
+.section-habilidades {
+  width: 100%;
+  height: auto;
+  background-color: $color-secundario;
+  padding: 20px;
+
+  .titulos-generales {
+    @extend %titulos-generales;
+    color: #000;
+    text-align: center;
+  }
+
+  .grilla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin-top: 10px;
+
+    .grillaHijo {
+      width: 30%;
+      height: 290px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+      .subtitle-hab {
+        font-family: $fuente-titulos;
+        font-size: 1.5rem;
+        margin-bottom: 7px;
+        color: $color-negro;
+      }
+
+      .content-hab {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        gap: 6px;
+
+        .habImg {
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          margin-top: 7px;
+          cursor: pointer;
+        }
+
+        .todosParrafos {
+          @extend %todosParrafos;
+          margin-top: 15px;
+          color: $color-negro;
+        }
+
+        @media (max-width: 899px) {
+          width: 75%;
+
+          justify-content: start;
+        }
+
+        @media (max-width: 592px) {
+          width: 50%;
+          justify-content: start;
+        }
+      }
+
+      @media (max-width: 899px) {
+        justify-content: start;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      @media (max-width: 592px) {
+        justify-content: start;
+        align-items: center;
+
+        margin-top: 20px;
+      }
+    }
+  }
+}

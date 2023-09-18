@@ -1,0 +1,112 @@
+{
+  "frontend": [
+    {
+      "title": "Javascript",
+      "img": "https://i.ibb.co/BrZpCZ0/hab-Javascript.png"
+    },
+    {
+      "title": "ReactJs",
+      "img": "https://i.ibb.co/q0WmyY8/reactt-1.png"
+    },
+    {
+      "title": "VueJs",
+      "img": "https://i.ibb.co/vVyM5Yh/vuejs-1.png"
+    },
+    {
+      "title": "Typescript",
+      "img": "https://i.ibb.co/yWP4Lg0/typescript-1.png"
+    },
+    {
+      "title": "Redux",
+      "img": "https://i.ibb.co/f451t2R/redux-1.png"
+    },
+    {
+      "title": "NextJs",
+      "img": "https://i.ibb.co/GQGqByJ/nextjs-1.png"
+    }
+  ],
+  "backend": [
+    {
+      "title": "NodeJs",
+      "img": "https://i.ibb.co/2WyrZ1t/nodejs-1.png"
+    },
+    {
+      "title": "ExpressJs",
+      "img": "https://i.ibb.co/rfNghMt/express-1.png"
+    },
+    {
+      "title": "Spring boot",
+      "img": "https://i.ibb.co/jk4mGm0/spring-boot-1.png"
+    },
+    {
+      "title": "Wordpress",
+      "img": "https://i.ibb.co/CJ1Vh36/wordpress-1.png"
+    },
+    {
+      "title": "PHP",
+      "img": "https://i.ibb.co/gvFTbLh/php-1.png"
+    }
+  ],
+  "diseño": [
+    {
+      "title": "HTML",
+      "img": "https://i.ibb.co/YfNWr0p/html-1.png"
+    },
+    {
+      "title": "CSS",
+      "img": "https://i.ibb.co/YjhskF2/cs-1.png"
+    },
+    {
+      "title": "Sass",
+      "img": "https://i.ibb.co/5cVNRQS/sass-1.png"
+    },
+    {
+      "title": "Boostrap",
+      "img": "https://i.ibb.co/L5bWRDM/boostrap-1.png"
+    },
+    {
+      "title": "Material UL",
+      "img": "https://i.ibb.co/f01nCfg/material-Ul-1.png"
+    },
+    {
+      "title": "Figma",
+      "img": "https://i.ibb.co/4mpQjDh/figma-1.png"
+    }
+  ],
+  "baseDeDatos": [
+    {
+      "title": "MySql",
+      "img": "https://i.ibb.co/HXNmnh0/mysql-1.png"
+    },
+    {
+      "title": "PhpMyAdmin",
+      "img": "https://i.ibb.co/sV2kNN8/phpmyadmin-1.png"
+    },
+    {
+      "title": "Posgresql",
+      "img": "https://i.ibb.co/qrwdbq0/postgresql-1.png"
+    },
+    {
+      "title": "MongoDB",
+      "img": "https://i.ibb.co/wLgSj1D/mongodb-1.png"
+    }
+  ],
+  "herramientas": [
+    {
+      "title": "Git",
+      "img": "https://i.ibb.co/vJ8j5hq/git-1.png"
+    },
+    {
+      "title": "Github",
+      "img": "https://i.ibb.co/vcmDkfV/github-2.png"
+    },
+    {
+      "title": "AzureDevops",
+      "img": "https://i.ibb.co/16Fm1wq/azure-1.png"
+    },
+    {
+      "title": "Npm",
+      "img": "https://i.ibb.co/9WMjghf/npm-1.png"
+    }
+  ]
+}

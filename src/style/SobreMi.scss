@@ -1,0 +1,68 @@
+@import './global.scss';
+
+.section-sobreMi {
+  width: 100%;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+  .titulos-generales {
+    @extend %titulos-generales;
+    color: $color-principal;
+  }
+
+  .content-parrafo {
+    width: 780px;
+    text-align: center;
+
+    .todosParrafos {
+      @extend %todosParrafos;
+
+      @media (max-width: 514px) {
+        font-size: 15px;
+      }
+    }
+
+    @media (max-width: 788px) {
+      width: 100%;
+      padding: 15px;
+      text-align: start;
+    }
+  }
+
+  .content-botones {
+    display: flex;
+    gap: 20px;
+
+    .boton-color {
+      background-color: $color-principal;
+      color: #fff;
+      padding: 10px;
+      font-family: $fuente-letras !important;
+      text-transform: capitalize;
+      font-weight: bold;
+
+      @media (max-width: 339px) {
+        width: 150px;
+        height: 50px;
+      }
+    }
+
+    .boton-outline {
+      border: 1px solid $color-principal;
+      color: $color-principal;
+      padding: 10px;
+      font-family: $fuente-letras !important;
+      text-transform: capitalize;
+      font-weight: bold;
+
+      @media (max-width: 339px) {
+        width: 150px;
+        height: 50px;
+      }
+    }
+  }
+}

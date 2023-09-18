@@ -1,0 +1,155 @@
+@import './global.scss';
+
+.section-hero {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  .circulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: $color-principal;
+    clip-path: circle(650px at right 750px);
+    width: 100%;
+    height: 100%;
+  }
+
+  .boton-container {
+    .boton-cambio {
+      width: 40px;
+      height: 36px;
+      border-radius: 50%;
+      background-color: #fff;
+      border: none;
+      outline: none;
+      position: absolute;
+      right: 0;
+      bottom: 60%;
+      cursor: pointer;
+      z-index: 1;
+    }
+  }
+
+  .content-navbar {
+    width: 100%;
+
+    .navbar {
+      position: relative !important;
+
+      .logo {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+
+      .idiomas {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10px;
+        padding: 4px;
+        color: black;
+      }
+
+      .nav-buttons {
+        color: $color-principal !important;
+        font-family: $fuente-navbar !important;
+        font-size: 16px !important;
+      }
+
+      .button-bandera {
+        width: 30px;
+        height: 30px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        border-radius: 50% !important;
+
+        .bandera {
+          width: 22px;
+        }
+      }
+    }
+  }
+
+  .grilla {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    .content-titles {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+
+      .titlo-principal {
+        font-size: 4rem;
+        font-family: $fuente-titulos;
+
+        .secundary {
+          color: $color-principal;
+
+          @media (max-width: 894px) {
+            color: $color-negro;
+          }
+        }
+
+        @media (max-width: 514px) {
+          font-size: 3.5rem;
+        }
+      }
+
+      .titulo-secundario {
+        font-size: 1.5rem;
+        font-family: $fuente-titulos;
+        text-transform: uppercase;
+
+        .secundary {
+          color: $color-principal;
+
+          @media (max-width: 894px) {
+            color: $color-negro;
+          }
+        }
+
+        @media (max-width: 456px) {
+          font-size: 1.3rem;
+        }
+      }
+    }
+
+    .content-iconos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .foto-portafolio {
+      width: 250px;
+      border-radius: 50%;
+      cursor: pointer;
+
+      @media (max-width: 514px) {
+        margin-top: 25px;
+        width: 200px;
+      }
+    }
+
+    @media (max-width: 894px) {
+      transform: translate(-50%, -43%);
+    }
+  }
+
+  .fuenteDrawer {
+    font-family: $fuente-navbar !important;
+    color: #3d3c41 !important;
+  }
+}
