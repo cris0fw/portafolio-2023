@@ -7,4 +7,5 @@ export default defineConfig({
   server: {
     host: 'localhost',
   },
+  base: 'portafolio-2023',
 });
